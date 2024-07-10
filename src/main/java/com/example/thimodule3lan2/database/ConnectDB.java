@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectDB {
-    private static String dbURL = "jdbc:mysql://localhost:3306/company_ABC?useSSL=false";
+    private static String dbURL = "jdbc:mysql://localhost:3306/thilan2?useSSL=false";
     private static String dbUser = "root";
     private static String dbPassword = "120599";
 
