@@ -85,7 +85,7 @@ public class ProductServlet extends HttpServlet {
 
         int stock = 0;
         try {
-            price = Double.parseDouble(priceStr);
+            stock = Integer.parseInt(stockStr);
         } catch (NumberFormatException e) {
             errorMessage = "Vui lòng nhập tồn kho.";
         }
